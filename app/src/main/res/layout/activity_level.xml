@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/block_brown_light"
+    tools:context=".LevelActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"
+        android:layout_marginEnd="@dimen/margin"
+        android:layout_marginRight="@dimen/margin"
+        android:layout_marginBottom="@dimen/margin"
+        android:background="@drawable/block_brown"
+        android:padding="@dimen/margin"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:id="@+id/level_one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/block_brown_light"
+                android:onClick="enterGame"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:text="@string/level_one_name"
+                    android:textAlignment="center"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/level_one_step"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/level_two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:background="@drawable/block_brown_light"
+                android:onClick="enterGame"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:text="@string/level_two_name"
+                    android:textAlignment="center"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/level_two_step"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/level_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:background="@drawable/block_brown_light"
+                android:onClick="enterGame"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:text="@string/level_three_name"
+                    android:textAlignment="center"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/level_three_step"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/level_four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:background="@drawable/block_brown_light"
+                android:onClick="enterGame"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:text="@string/level_four_name"
+                    android:textAlignment="center"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/level_four_step"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/level_five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin"
+                android:background="@drawable/block_brown_light"
+                android:onClick="enterGame"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/margin"
+                    android:text="@string/level_five_name"
+                    android:textAlignment="center"
+                    android:textSize="40sp" />
+
+                <TextView
+                    android:id="@+id/level_five_step"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">三国华容道</string>
+    <string name="best_step">最佳步数：</string>
+    <string name="current_step">当前步数：</string>
+    <string name="no_data">暂无数据</string>
+    <string name="level_one_name">海 阔 天 空</string>
+    <string name="level_two_name">近 在 一 步</string>
+    <string name="level_three_name">兵 临 曹 营</string>
+    <string name="level_four_name">一 横 定 式</string>
+    <string name="level_five_name">横 刀 立 马</string>
+    <string name="back_to_menu">选择关卡</string>
+    <string name="restart">重新开始</string>
+    <string name="next_level">下一关</string>
+    <string name="victory_dialog_title">恭喜你，过关啦！</string>
+    <string name="previous_level">上一关</string>
+    <string name="select_level">选择关卡</string>
+    <string name="exit">退出游戏</string>
+</resources>
