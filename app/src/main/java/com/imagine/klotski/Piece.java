@@ -108,7 +108,6 @@ public class Piece extends FrameLayout {
                         yMoving = false;
                         int step = (xSpan != 0 || ySpan != 0) ? 1 : 0;
                         GameActivity.getGameActivity().increaseStep(step);
-                        print();
                         if (gameIsOver()) {
                             GameActivity.getGameActivity().finishGame();
                         } else if (moveX >= spanSize * 1.0 / 3 || moveY >= spanSize * 1.0 / 3) {
@@ -198,16 +197,6 @@ public class Piece extends FrameLayout {
     public boolean canMoveRight() {
         if (column == 4 - columnSpan) return false;
         return (pieces[row][column + columnSpan] == 0) && (pieces[row + rowSpan - 1][column + columnSpan] == 0);
-    }
-
-    public void print() {
-        System.out.println("GameBoard");
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 4; j++) {
-                System.out.print(pieces[i][j] + " ");
-            }
-            System.out.println();
-        }
     }
 
     boolean gameIsOver() {
